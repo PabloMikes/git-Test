@@ -10,6 +10,6 @@ public class MathUtils {
 
 
     static public final int secondPower(int number){
-        return number*number;
+        return (int) Math.pow(number,2);
     }
 }
